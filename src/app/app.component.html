@@ -1,0 +1,26 @@
+<div class="color">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let item of detArray">
+      <div class="card" [style.background-color]="item.getColor(item)">
+        <div >
+          <button class="delete" (click)="delete(item)">X</button>
+          <div class="text-center mb-3">
+          {{item.id}}</div>
+        </div>
+        <div class="card-body text-center mb-3">
+          <h5 class="card-title text-center mb-3"></h5>
+          <p class="card-text text-center mb-3">{{item.name}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text1 ">Новый датчик</div>
+<div class="row  mx-1">
+  <input type="text" class="control" [(ngModel)]="inputName" />
+  <button class="btn" (click)="new()">Готово</button>
+  </div>
+</div>
+
+

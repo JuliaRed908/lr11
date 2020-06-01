@@ -1,0 +1,20 @@
+.color{
+    
+    background-color: rgb(255, 250, 182);
+    height: 100%;
+    width: 100%;
+}
+.text1{
+    left:10px;
+    color: rgb(0, 0, 0);
+    
+}
+.btn{
+    background-color: rgb(255, 0, 0);
+}
+.div{
+    border: none;
+}
+.delete{
+    background-color: rgb(255, 0, 0);
+}
